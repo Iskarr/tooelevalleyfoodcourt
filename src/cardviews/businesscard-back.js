@@ -240,7 +240,6 @@ export default class BusinessCardBack extends React.Component {
 
           <a
             target="_blank"
-            onClick="preventDefault()"
             href={encodeURI(`http://maps.google.com/maps?q=${item.street}, ${item.city}, ${item.state} ${cityToZip(item.city)}`)}
             style={{ display: "block" }}
           >
